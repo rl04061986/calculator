@@ -26,7 +26,7 @@ exports.calculate = function(req, res) {
   var operation = operations[req.query.operation];
 
   if (! operation) {
-    throw new Error("Invalid operation: " + req.query.operation);'add': function(a,b) { return a + b },
+    throw new Error("Invalid operation: " + req.query.operation);
   }
 
   // Validate operands
